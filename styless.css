@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+  color: #fff
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #090e22;
+}
+
+.container {
+  background-color: #1d1e33;
+  min-height: 400px;
+  min-width: 400px;
+  padding: 2rem;
+}
+
+h2 {
+ text-align: center;
+ padding-bottom: 1rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+label {
+  padding-bottom: .5rem;
+  color: #ccc;
+  font-weight: bold;
+}
+
+input {
+  height: 3rem;
+  padding-left: .5rem;
+  outline: none;
+  color: #000;
+}
+
+.action-control {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #f44236;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  flex: 1;
+  opacity: .9;
+  margin-top: 1rem;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+#clear-btn {
+  background-color: #444;
+}
+
+#result-container {
+  text-align: center;
+}
+
+#imc-number {
+  font-size: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+
+#imc-info {
+  font-size: 1.4rem;
+  color: #ccc;
+}
+
+#result-container h3 {
+  margin-top: 1rem;
+  color: #dfdfdf;
+}
+
+#imc-table {
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+}
+
+.table-header {
+  font-weight: bold;
+  color: #ccc;
+}
+
+.table-header,
+.table-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #444;
+}
+
+.table-data p,
+.table-header h4 {
+  flex: 1;
+}
+
+.good {
+  color: #12db34;
+}
+
+.low {
+  color: #dbce12;
+}
+
+.medium {
+  color: #db6212;
+}
+
+.high {
+  color: #db1912;
+}
