@@ -1,4 +1,4 @@
-// simulação de recebimento de dados de uma API
+
 
 const data = [
   {
