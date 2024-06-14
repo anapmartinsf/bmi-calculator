@@ -1,5 +1,4 @@
 
-
 const data = [
   {
     min: 0,
